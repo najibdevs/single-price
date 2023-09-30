@@ -1,4 +1,4 @@
-# Stats card
+# Single Price Card
 
 A simple single price card built using HTML and CSS.
 
