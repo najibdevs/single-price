@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ededed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+}
+
+.main-card {
+  background: white;
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  margin: 0 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  padding: 3rem;
+}
+
+.header h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.header h2 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 15px;
+}
+
+.header p {
+  color: hsl(218, 22%, 67%);
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.mini-card {
+  display: flex;
+}
+.subscription {
+  background: hsl(179, 62%, 43%);
+  width: 50%;
+  padding: 3rem;
+  color: hsl(204, 43%, 93%);
+  border-bottom-left-radius: 10px;
+}
+
+.subscription h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscription h5 {
+  margin-right: 165px;
+  margin-top: -14px;
+  font-size: 18px;
+  color: hsla(203, 44%, 93%, 0.654);
+}
+
+.subscription p {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.subscription span {
+  color: hsl(178, 98%, 84%);
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.subscription h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: hsla(203, 44%, 93%, 0.654);
+}
+
+.btn {
+  color: white;
+  border: none;
+  background: hsl(71, 73%, 54%);
+  width: 320px;
+  padding: 20px 40px;
+  display: block;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-weight: 700;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+  background: hsl(179, 47%, 51%);
+  width: 50%;
+  padding: 3rem;
+  color: white;
+  border-bottom-right-radius: 10px;
+}
+
+.about h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: hsla(203, 44%, 93%, 0.654);
+}
